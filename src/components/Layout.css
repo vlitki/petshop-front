@@ -1,0 +1,38 @@
+html,
+body, * {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+}
+
+.layout{
+    padding: 10px;
+    max-width: 100%; 
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+  }
+
+ /* .main-container{
+    max-width: 100%; 
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    position:relative;
+   
+  }*/
+
+  .layout::before {
+      content: "";
+      background-image:url("/images/background3.jpeg");
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.6;
+      z-index: -1;
+  }

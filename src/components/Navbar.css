@@ -1,0 +1,59 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 18px;
+    position: relative;
+  }
+
+  .home-link {
+    align-self: baseline;
+    
+  }
+
+  .app-title {
+    background-image: url('/images/petshop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 130px;
+    width: 500px;
+    display:inline-block;
+  }
+
+  .cat-logo {
+    background-image: url('/images/catlogo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 130px;
+    width: 210px;
+    display:inline-block;
+  }
+
+  .dog-logo {
+    background-image: url('/images/doglogo4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 130px;
+    width: 213px;
+    display:inline-block;
+    }
+    
+  .cart-icon {
+    border: none;
+    background: none;
+    align-self: baseline;
+    cursor: pointer;
+  }
+
+
+
+   /*.blob {
+    border:1px magenta solid;
+    border-radius:43% 57% 50% 50% / 50% 57% 43% 50% ;
+    border-top: 15px ;
+   }*/
