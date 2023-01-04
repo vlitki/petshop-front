@@ -33,7 +33,7 @@ export default function Cart() {
           {cart.length >= 1 && cart.map((product) => (
             <div className="product" key={product.id}>
               <img
-                 src={'http://localhost:1337'+ product.attributes.image.data.attributes.url}
+                 src={'https://petcommerce.herokuapp.com'+ product.attributes.image.data.attributes.url}
                  className="cart-product-image"
                  width="200"
                  height="200"

@@ -5,7 +5,7 @@ const Product = ({ product }) => {
     <div>
         <div className="product-card">
           <img 
-            src={'http://localhost:1337'+ product.attributes.image.data.attributes.url}
+            src={'https://petcommerce.herokuapp.com'+ product.attributes.image.data.attributes.url}
             width={250}
             height={250}
             className="product-image"
