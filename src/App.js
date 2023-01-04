@@ -29,7 +29,7 @@ const App = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('http://petcommerce.herokuapp.com/api/products?populate=*', { headers, method: 'GET' })
+    fetch('https://petcommerce.herokuapp.com/api/products?populate=*', { headers, method: 'GET' })
       .then(checkStatus)
       .then(parseJSON)
       .then(({ data }) => setProducts(data))
