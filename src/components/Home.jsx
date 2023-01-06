@@ -4,7 +4,7 @@ import Category from './Category';
 import  "./Home.css"
 
 function Home( {products}) {
-    const catProducts = products.filter((product, idx) => idx === 0 || idx === 5  || idx === 7) 
+    const catProducts = products.filter((product, idx) => idx === 0 || idx === 7) 
     const dogProducts = products.filter((product, idx) => idx === 12  || idx === 17 || idx === 22)
   
     return (
