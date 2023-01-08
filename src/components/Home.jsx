@@ -5,7 +5,7 @@ import  "./Home.css"
 
 function Home( {products}) {
     const catProducts = products.filter((product, idx) => idx === 2 || idx === 9 || idx === 16) 
-    const dogProducts = products.filter((product, idx) => idx === 22  || idx === 24 || idx === 34)
+    const dogProducts = products.filter((product, idx) => idx === 4  || idx === 24 || idx === 34)
   
     return (
     <>
