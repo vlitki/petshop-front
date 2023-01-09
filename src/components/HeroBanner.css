@@ -34,3 +34,13 @@
   .hero-text h4 {
     font-size: 1em;
   }
+
+  .hero-banner-button {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #c4d8ff;;
+    color: #221c1c;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid black;
+  }

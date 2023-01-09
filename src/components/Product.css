@@ -1,0 +1,12 @@
+.product-card-info {
+    padding-bottom: 26px;
+    font-weight: 600;
+ }
+
+ .product-name {
+    float: left;
+ }
+
+ .product-price {
+    float: right;
+ }

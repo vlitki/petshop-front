@@ -11,8 +11,10 @@ const Product = ({ product }) => {
             className="product-image"
             alt={product.attributes.title}
           />         
-          <p className="product-name">{product.attributes.title}</p>
-          <p className="product-price">${product.attributes.price}</p>
+         <div className="product-card-info">        
+            <p className="product-name">{product.attributes.title}</p>
+            <p className="product-price">${product.attributes.price}</p>
+          </div>
         </div>
     </div>
   )

@@ -96,3 +96,18 @@
   .product-details-num {
     font-size: 22px;
   }
+
+  .button-container {
+    text-align: center;
+    padding: 2px 0 20px 0;
+  }
+
+   button {
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #c9e7eb;;;
+    color: #221c1c;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid black;
+    }

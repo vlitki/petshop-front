@@ -8,7 +8,7 @@ function HeroBanner() {
         <h3>Special offer </h3>
         <h2>Lovely cat trees</h2>
         <h3> 30 % OFF!</h3>
-         <button> shop </button>
+        <button className="hero-banner-button"> SHOP </button>
       </div>
   </div> 
   )

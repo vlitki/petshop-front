@@ -41,11 +41,13 @@ function ProductDetails({products}) {
            return (
             <>
            <Product key={item.id} product={item} > </Product>
-           <button onClick={()=> {
-              setIndex(item.id); 
-              setShowProduct(true)
-                  }}
-              >Click here</button> 
+           <div className="button-container">
+              <button onClick={()=> {
+                  setIndex(item.id); 
+                  setShowProduct(true)
+                 }}
+                  >View product</button> 
+              </div> 
            </>       
            )
            })}
@@ -58,11 +60,13 @@ function ProductDetails({products}) {
            return (
             <>
            <Product key={item.id} product={item} > </Product>
-           <button onClick={()=> {
-              setIndex(item.id); 
-              setShowProduct(true)
-              }}
-              >Click here</button> 
+           <div className="button-container">
+              <button onClick={()=> {
+                  setIndex(item.id); 
+                  setShowProduct(true)
+                 }}
+                  >View product</button> 
+              </div>
            </>       
            )
            })}
