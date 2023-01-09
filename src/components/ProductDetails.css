@@ -31,8 +31,11 @@
    }
 
   .product-info {
-    padding: 15px;
+    padding: 15px 15px 36px 15px;
     width: 500px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: white;
   }
   
   .product-image {
