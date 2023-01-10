@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Petshop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+- practice project
+- a small e-commerce app that displays cat and dog products
+- technology used: ReactJS, Strapi CMS, Heroku 
 
-## Available Scripts
 
-In the project directory, you can run:
+### Link
+https://petcommerz.netlify.app/
 
-### `npm start`
+### Note about the link:
+- I managed to deploy the site on Heroku (link above), but I am still figuring out how to prevent images from disappearing. I know I need them to upload via Cloudinary or AWS but I am not sure how to integrate that in my application. (not really familiar with deploying and that stuff, still learning).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Here are the screenshots of how the app looks locally: 
+<br />
+<br />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align=center> <b>a homepage with the  banner and product categories</b> </p>
 
-### `npm test`
+![homepage](https://user-images.githubusercontent.com/93093819/211637392-f086d10c-dfe1-41be-b11d-d0264e395df9.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br />
+<br />
 
-### `npm run build`
+<p align=center> <b>enlisted category items with product details</b> </p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![product details](https://user-images.githubusercontent.com/93093819/211637624-0fed417d-a248-43a0-82ea-251430057bd4.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br />
+<br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align=center> <b>a cart functionality that can be accessed by clicking on the cart icon </b> </p>
 
-### `npm run eject`
+![cart](https://user-images.githubusercontent.com/93093819/211637945-3f71fdfd-e7e2-4a12-911e-aa2582aa7e5b.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br />
+<br />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### TODO
+- figure out how to use Cloudinary as Strapi plugin
+- improve the styling (fonts, buttons) 
+- add additional features in product details page(comments, rating, reviews...)
+- make the app responsive
+- style the cart component
+- add some animations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
