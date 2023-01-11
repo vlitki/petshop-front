@@ -79,7 +79,7 @@ function ProductDetails({products}) {
           <>
           <h3 className="product-details-title">{item.attributes.title}</h3>
           <img 
-            src={'https://petcommerce.herokuapp.com'+ item.attributes.image.data.attributes.url}
+            src={item.attributes.image.data.attributes.url}
             width={500}
             height={500}
             className="product-image"
