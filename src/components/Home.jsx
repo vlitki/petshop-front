@@ -4,8 +4,8 @@ import Category from './Category';
 import  "./Home.css"
 
 function Home( {products}) {
-    const catProducts = products.filter((product, idx) => idx === 2 || idx === 9 || idx === 16) 
-    const dogProducts = products.filter((product, idx) => idx === 8  || idx === 24 || idx === 34)
+    const catProducts = products.filter((product, idx) => idx === 21 || idx === 2 || idx === 16) 
+    const dogProducts = products.filter((product, idx) => idx === 1  || idx === 31 || idx === 34)
   
     return (
     <>
