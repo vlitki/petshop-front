@@ -10,7 +10,7 @@
 https://petcommerz.netlify.app/
 
 ### Note about the link:
-- I managed to deploy the site on Heroku (link above), but I am still figuring out how to prevent images from disappearing. I know I need them to upload via Cloudinary or AWS but I am not sure how to integrate that in my application. (not really familiar with deploying and that stuff, still learning).
+- The link above works, you just need to wait a few seconds to fetch the products. 
 
 #### Here are the screenshots of how the app looks locally: 
 <br />
@@ -38,11 +38,11 @@ https://petcommerz.netlify.app/
 <br />
 
 ### TODO
-- figure out how to use Cloudinary as Strapi plugin
 - improve the styling (fonts, buttons) 
 - add additional features in product details page(comments, rating, reviews...)
 - make the app responsive
 - style the cart component
 - add some animations
+- integrate with Stripe
 
 
