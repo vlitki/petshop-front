@@ -5,9 +5,6 @@
 - a small e-commerce app that displays cat and dog products
 - technology used: ReactJS, Strapi CMS, Heroku, Cloudinary 
 
-### Important note
-- this is a portfolio project created primarily to showcase and pracice my coding skills
-
 
 ### Link
 https://petcommerz.netlify.app/
@@ -39,6 +36,9 @@ https://petcommerz.netlify.app/
 
 <br />
 <br />
+
+### Important note
+- This is a portfolio project created to showcase and pracice my coding skills.There are no other purposes
 
 ### TODO
 - improve the styling (fonts, buttons) 
