@@ -1,9 +1,12 @@
 # Petshop
 
-## About
-- practice project
+## About 
+- a portfolio practice project
 - a small e-commerce app that displays cat and dog products
-- technology used: ReactJS, Strapi CMS, Heroku 
+- technology used: ReactJS, Strapi CMS, Heroku, Cloudinary 
+
+### Important note
+- this is a portfolio project created primarily to showcase and pracice my coding skills
 
 
 ### Link
