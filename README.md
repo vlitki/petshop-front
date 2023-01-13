@@ -38,7 +38,7 @@ https://petcommerz.netlify.app/
 <br />
 
 ### Important note
-- This is a portfolio project created to showcase and pracice my coding skills.There are no other purposes
+- This is a portfolio project created to showcase and practice my coding skills.There are no other purposes
 
 ### TODO
 - improve the styling (fonts, buttons) 
